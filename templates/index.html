@@ -1,0 +1,12 @@
+<html>
+<head> 
+	<link rel='stylesheet' type='text/css' href="{{url_for('static',filename='style.css')}}">
+	<title>HOROSCOPO DO DIA</title>
+</head>
+<body> 
+	<h1>HOROSCOPO DO DIA</h1>
+	<form method='POST' action='/result'> 
+		Insira o termo de busca: <input type='text' name='query'>
+		<input type='submit' value='Buscar'> 
+</body>
+</html>
